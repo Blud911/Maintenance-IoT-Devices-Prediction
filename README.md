@@ -12,10 +12,10 @@ Overview
 
 The "Maintenance IoT Devices Prediction" project focuses on predicting maintenance needs for IoT devices by using machine learning techniques. The project includes generating synthetic data, applying predictive modeling, and visualizing results through an interactive Dash dashboard.
 
-## Project Structure
+Project Structure
 
 1. Synthetic Data Generation
-   - A script to generate synthetic IoT device data, including features like device age, error counts, and failure probabilities.
+   - A script to generate synthetic IoT device data, including features like Device_ID, Device_Type, Model, Location, Installation_Date, Date Device_Age_Days, Errors.
 
 2. Data Preprocessing
    - Data cleaning and feature engineering steps, including merging datasets, handling missing values, and feature scaling.
@@ -24,12 +24,12 @@ The "Maintenance IoT Devices Prediction" project focuses on predicting maintenan
    - Building and training machine learning models to predict maintenance needs. 
    - Evaluation of models using metrics such as accuracy, precision, recall, and F1-score.
 
-4. **Dashboard Creation**
+4. Dashboard Creation
    - An interactive Dash application to visualize device health, anomaly alerts, failure predictions, and historical data.
 
 Features
 
-- Synthetic Data Generation: Creates a realistic dataset for IoT devices with features like device age, errors, and failure probabilities.
+- Synthetic Data Generation: Creates a realistic dataset for IoT devices with features like Device_ID, Device_Type, Model, Location, Installation_Date, Date Device_Age_Days, Errors.
 - Predictive Modeling: Implements machine learning models to predict maintenance needs based on historical data.
 - Interactive Dashboard: Visualizes device health status, anomaly alerts, failure predictions, and historical data.
 
@@ -83,8 +83,8 @@ Running the Dashboard
 
 Usage
 
-- Synthetic Data Generation: Run the `generate_synthetic_data.py` script to create a synthetic dataset.
-- Predictive Modeling: Use the `predictive_modeling.py` script to train and evaluate models.
+- Synthetic Data Generation: Run the `synthetic_ioT_device.csv.py` script to create a synthetic dataset.
+- Predictive Modeling: Use the `IoT_Device_Maintenance.py` script to train and evaluate models.
 - Dashboard: Interact with the Dash app to visualize and explore device health, anomaly alerts, and failure predictions.
 
 Contributing
